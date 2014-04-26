@@ -4,22 +4,22 @@ EXEC="chromium-browser --app=file:///usr/share/prop/logisch"
 
 case "$1" in 
    1)
-     ${EXEC}/logisch1/logisch1.html
+     ${EXEC}/logisch1/logisch1.htm
      ;;
    2)
-     ${EXEC}/logisch2/logisch2.html
+     ${EXEC}/logisch2/logisch2.htm
      ;;
    3)
-     ${EXEC}/logisch3/logisch3.html
+     ${EXEC}/logisch3/logisch3.htm
      ;;
    4)
-     ${EXEC}/logisch4/logisch4.html
+     ${EXEC}/logisch4/logisch4.htm
      ;;
    5)
-     ${EXEC}/logisch5/logisch5.html
+     ${EXEC}/logisch5/logisch5.htm
      ;;
    6)
-     ${EXEC}/logisch6/logisch6.html
+     ${EXEC}/logisch6/logisch6.htm
      ;;
    *)
      ${EXEC}/index.html
