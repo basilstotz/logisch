@@ -1,9 +1,67 @@
 <html>
+<head>
+<link rel="stylesheet" href="libs/jquery.rondell.css" type="text/css" media="all" title="Screen"/>
+<script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="libs/modernizr-2.0.6.min.js"></script>
+<script type="text/javascript" src="libs/jquery.rondell.js"></script>
+<script type="text/javascript" src="libs/jquery.mousewheel-3.-0-6.min.js"></script>
+</head>
 
+<body style="font-family:Arial;background:#aaaaaa;text-align:center">
 
-<body style="font-family:Arial">
 <h1>Logisch</h1>
 
+<div  id="rondellCarousel">
+  <a  rel="rondell" href="logisch1/logisch1.htm" title="...">
+    <img src="pixmaps/logisch1.png" alt="1" title="Logisch 1">
+    <h3>Logisch 1</h3>
+    <p></p>
+  </a>
+  
+  <a rel="rondell" href="logisch2/logisch2.htm" title="...">
+    <img src="pixmaps/logisch2.png" alt="2" title="Logisch 2">
+    <h3>Logisch 2</h3>
+    <p></p>
+  </a>
+  
+  <a rel="rondell" href="logisch3/logisch3.htm" title="...">
+    <img src="pixmaps/logisch3.png" alt="3" title="Logisch 3">
+    <h3>Logisch 3</h3>
+    <p></p>
+  </a>
+  
+  <a rel="rondell" href="logisch4/logisch4.htm" title="...">
+    <img src="pixmaps/logisch4.png" alt="4" title="Logisch 4">
+    <h3>Logisch 4</h3>
+    <p></p>
+  </a>
+  
+  <a rel="rondell" href="logisch5/logisch5.htm" title="...">
+    <img src="pixmaps/logisch5.png" alt="5" title="Logisch 5">
+    <h3>Logisch 5</h3>
+    <p></p>
+  </a>
+  
+  <a rel="rondell" href="logisch6/logisch6.htm" title="...">
+    <img src="pixmaps/logisch6.png" alt="6" title="Logisch 6">
+    <h3>Logisch 6</h3>
+    <p></p>
+  </a>
+  
+</div>
+
+<script type="text/javascript">
+  $(function() {
+    // Create a rondell with the 'carousel' preset and set an option
+    // to disable the rondell while the lightbox is displayed
+    $("#rondellCarousel").rondell({
+      preset: "carousel", lightbox: false, autoRotation: { enabled: true, delay: 5000 },
+      strings: { prev: 'voriges', next: 'n&auml;chstes' }, scaling: 1.5
+    });
+  });
+</script>
+
+<!---
 <table style="width:100%">
 <tr style="heigth:150px">
 <td><a href="logisch1/logisch1.htm"><br><br><br><img src="pixmaps/logisch1.png"><br><br><br></a></td>
@@ -15,7 +73,7 @@
 <td><a href="logisch5/logisch5.htm"><img src="pixmaps/logisch5.png"></a></td>
 <td><a href="logisch6/logisch6.htm"><img src="pixmaps/logisch6.png"></a></td>
 </tr>
-
+--->
 
 
 
