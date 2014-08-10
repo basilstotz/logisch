@@ -5,6 +5,7 @@ Name=Logisch
 GenericName=Logisch 
 Comment=Rechnen und üben 
 Icon=logisch1.png
+Keywords="lp21 mathematik zahl variable
 Exec=/usr/share/bin/logisch
 Terminal=false
 Categories=Education
