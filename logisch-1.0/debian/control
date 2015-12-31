@@ -10,7 +10,7 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: logisch
 Architecture: all
-Depends: chromium-browser,${misc:Depends}
+Depends: chromium-browser,gnash,${misc:Depends}
 Description: A mathematics teaching programm
  A mathematics teaching programm
 

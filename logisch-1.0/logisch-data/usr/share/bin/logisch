@@ -19,7 +19,8 @@ case "$1" in
      ${EXEC}/logisch5/logisch5.htm
      ;;
    6)
-     ${EXEC}/logisch6/logisch6.htm
+      gnash --hide-menubar /usr/share/prop/logisch/logisch6/logisch6.swf
+#     ${EXEC}/logisch6/logisch6.htm
      ;;
    *)
      ${EXEC}/index.html
