@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 26 Apr 2014 16:50:30 +0200
+Source: logisch
+Binary: logisch
+Architecture: source all
+Version: 1.0
+Distribution: unstable
+Urgency: low
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: Basil Stotz <stotz@amxa.ch>
+Description: 
+ logisch    - A mathematics teaching programm
+Changes: 
+ logisch (1.0) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1: 
+ 137c46a2010202fc1ae4922d97f5158f7ba84e1e 531 logisch_1.0.dsc
+ 9c9601b66b00e0ec768b2502ba278f2ef3ef2a4b 313616 logisch_1.0.tar.gz
+ 34b3f124ea9a23a9ea6b560c7c4145c9a505ccbd 192814 logisch_1.0_all.deb
+Checksums-Sha256: 
+ a1ce00e420f1f3b950f15c838d4b1fe6f0c0cdb7d40d7b8979fcba009a80aa30 531 logisch_1.0.dsc
+ 9b56169c982e573db79a4f1264cf1895ce1212f44f7eace999f530d5170f78ff 313616 logisch_1.0.tar.gz
+ 47b0e591617d00879336d255ffe5858776d51f094dc4ca37a07a967b6fd64072 192814 logisch_1.0_all.deb
+Files: 
+ 42ce9bcef306d6369d3a79161dcd5212 531 unknown extra logisch_1.0.dsc
+ 04f21b8638ffe7fb225b9c18210b1c2e 313616 unknown extra logisch_1.0.tar.gz
+ 13fb4684e5b5bcd88a2f42675e245245 192814 unknown extra logisch_1.0_all.deb

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-EXEC="chromium-browser --app=file:///usr/share/prop/logisch"
+EXEC="chromium-browser --app=http://localhost:8000/logisch"
 
 case "$1" in 
    1)
